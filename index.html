@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="header">
+        <div class="Blogo">
+            <a href="index.html">
+                <img src="./img/rog-brandlogo.net_-1.png" class="logo" alt=""></a>
+        </div>
+        <div class="search">
+            <input type="search" id="search" placeholder="Search">
+        </div>
+        <!-- <div class="icon">
+            \begin{itemize}
+        </div> -->
+        <div class="auth-buttons">
+            <button class="btn" id="login-btn">Đăng nhập</button>
+            <button class="btn" id="signup-btn">Đăng ký</button>
+        </div>
+    </div>
+
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-login">&times;</span>
+            <h2>Đăng nhập</h2>
+            <form>
+                <input type="text" placeholder="Tên đăng nhập" required>
+                <input type="password" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="signup-modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-signup">&times;</span>
+            <h2>Đăng ký</h2>
+            <form>
+                <input type="text" placeholder="Tên đăng nhập" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Mật khẩu" required>
+                <button type="submit">Đăng ký</button>
+            </form>
+        </div>
+    </div>
+    <div class="danhmuc">
+        <ul class="nav">
+        </ul>
+    </div>
+    <div class="banner-container">
+        <div class="banner" id="banner"></div>
+    </div>
+    <div class="container">
+        <div id="productGrid" class="product-grid"></div>
+        <div class="pagination" id="pagination"></div>
+    </div>
+    <footer class="footer">
+        <div class="grid-wide">
+            <div class="row">
+
+                <div class="col l-4 c-12">
+                    <h3 class="footer__heading">
+                        LIÊN HỆ VỚI CHÚNG TÔI
+                    </h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Điện thoại:
+                            <a href="tel:0976124506" class="footer__item-link footer__phone">0123456789</a>
+                        </li>
+                        <li class="footer__item">
+                            Email:
+                            <a href="mailto:lowtechcoop@gmail.com"
+                                class="footer__item-link footer__email">lowtechcoop@gmail.com</a>
+                        </li>
+                        <li class="footer__item">
+                            Địa chỉ: 273 An Dương Vương, Quận 5, Hồ Chí
+                            Minh
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 c-12">
+                    <h3 class="footer__heading">
+                        THEO DÕI CHÚNG TÔI TRÊN
+                    </h3>
+                    <ul class="footer__list social">
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__item-link">
+                                <i class="footer__item-icon fa-brands fa-tiktok"></i>
+                                <span>TikTok</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l-4 c-12">
+                    <h3 class="footer__heading">
+                        CÔNG TY CỔ PHẦN LowTech
+                    </h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            Ngày thành lập: 25/12/2000
+                        </li>
+                        <li class="footer__item">
+                            LowTech đảm bảo uy tín và chất lượng những
+                            sản phẩm mang lại giá trị cho cộng đồng.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col l-12 c-12">
+                <p class="footer__copyright">
+                    © 2024 - Bản quyền thuộc về Công ty TNHH
+                    LowTech
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/6cfc27f036.js" crossorigin="anonymous"></script>
+</body>
+</html>
